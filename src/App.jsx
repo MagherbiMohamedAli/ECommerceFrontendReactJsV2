@@ -23,7 +23,7 @@ function App() {
       <Router>
         <Menu />
         <Routes>
-          <Route path="/articles" exact element={<Listarticle />} />
+          <Route path="/" exact element={<Listarticle />} />
           <Route path="/articles/add" element={<Insertarticle />} />
           <Route path="/articles/edit/:id" element={<Editarticle />} />
           <Route path="/categories" element={<Listcategories />} />
